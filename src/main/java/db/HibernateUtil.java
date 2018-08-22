@@ -1,7 +1,9 @@
 package db;
 
 
-import java.lang.module.Configuration;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
 
 public class HibernateUtil {
 
