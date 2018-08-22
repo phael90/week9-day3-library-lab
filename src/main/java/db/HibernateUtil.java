@@ -1,7 +1,8 @@
 package db;
 
 
-import java.lang.module.Configuration;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
 
 public class HibernateUtil {
 
@@ -18,7 +19,6 @@ public class HibernateUtil {
             throw new ExceptionInInitializerError(ex);
         }
     }
-
     public static SessionFactory getSessionFactory() {
         return sessionFactory;
     }
